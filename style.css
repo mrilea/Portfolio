@@ -28,8 +28,8 @@ img {
   margin-bottom: 10px;
 }
 
-.blue {
-  color: #7A89C2;
+.green {
+  color: #CBDFBD;
 }
 
 .center {
@@ -53,8 +53,8 @@ h2, h3 {
 h1 {
   font-family: Audiowide;
   font-size: 22pt;
-  padding: 1px;
-  text-shadow: 2px 2px 2px #CBDFBD;
+  /* padding: 1px;  */
+  /* text-shadow: 2px 2px 2px #CBDFBD; */
 }
 
 h2 {
@@ -70,7 +70,7 @@ p, ul, ol {
 
 footer {
   padding: 20px;
-  color: #7a89c2;
+  color: #CBDFBD;
   background-color: #393758;
 }
 
