@@ -1,15 +1,15 @@
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* colors
-Tea Green #CBDFBD
-Melon #EFB0A1
-Glaucous (blue) #7A89C2
-Space Cadet (purp) #39375B
-Shadow (brown) #7D7461
-*/
 
+Space Cadet (purp) #39375B
+Beau Blue #BDD4E7
+Cool Grey #8693AB
+
+
+*/
 
 /* CSS Requirements
 background, color, font-family, font-size,
@@ -22,14 +22,14 @@ img {
   border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;  
+  width: 25%;
   height: 25%;
   margin-top: 50px;
   margin-bottom: 10px;
 }
 
 .green {
-  color: #CBDFBD;
+  color: #BDD4E7;
 }
 
 .center {
@@ -37,16 +37,17 @@ img {
 }
 
 main {
-  background-color: #efb0a1;
+  background-color: #8693AB;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-  background-color: #39375B;
+  background-color: #39375b;
   padding: 3px;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: Ubuntu;
 }
 
@@ -61,7 +62,9 @@ h2 {
   font-size: 12pt;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
   font-family: Lora;
   font-size: 12pt;
   margin-left: 15%;
@@ -70,7 +73,7 @@ p, ul, ol {
 
 footer {
   padding: 20px;
-  color: #CBDFBD;
+  color: #BDD4E7;
   background-color: #393758;
 }
 
@@ -81,23 +84,144 @@ ol {
 iframe {
   display: block;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
   margin-top: 20px;
   margin-bottom: 40px;
   width: 50%;
   height: 450px;
   padding: 10px;
-  border:0;
+  border: 0;
 }
 
 hr {
   width: 70%;
   height: 2px;
-  color: #7D7461;
+  color: #BDD4E7;
   border-style: double;
 }
 
-a:link     {color: blue;}
-a:visited  {color: red;}
-a:hover    {color: blueviolet;}
-a:active   {color: blanchedalmond;}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: blueviolet;
+}
+a:active {
+  color: blanchedalmond;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* colors
+Tea Green #CBDFBD
+Melon #EFB0A1
+Glaucous (blue) #7A89C2
+Space Cadet (purp) #39375B
+Shadow (brown) #7D7461
+*/
+
+/* CSS Requirements
+background, color, font-family, font-size,
+height, margin, padding, text-align
+*/
+
+img {
+  /*width: 300px; */
+  display: block;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.green {
+  color: #BDD4E7;
+}
+
+.center {
+  text-align: center;
+}
+
+main {
+  background-color: #8693AB;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: #39375b;
+  padding: 3px;
+}
+
+h2,
+h3 {
+  font-family: Ubuntu;
+}
+
+h1 {
+  font-family: Audiowide;
+  font-size: 22pt;
+  /* padding: 1px;  */
+  /* text-shadow: 2px 2px 2px #CBDFBD; */
+}
+
+h2 {
+  font-size: 12pt;
+}
+
+p,
+ul,
+ol {
+  font-family: Lora;
+  font-size: 12pt;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+footer {
+  padding: 20px;
+  color: #BDD4E7;
+  background-color: #393758;
+}
+
+ol {
+  font-family: Ubuntu;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 50%;
+  height: 450px;
+  padding: 10px;
+  border: 0;
+}
+
+hr {
+  width: 70%;
+  height: 2px;
+  color: #BDD4E7;
+  border-style: double;
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: blueviolet;
+}
+a:active {
+  color: blanchedalmond;
+}
