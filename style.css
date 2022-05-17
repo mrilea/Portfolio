@@ -65,6 +65,7 @@ h2 {
 }
 
 .icons{
+  height: 30px;
   text-align: right;
 }
 
@@ -81,14 +82,15 @@ ul li{
   padding: 0 .5em;
 }
 
-p,
-ul,
-ol {
+.list,
+p {
   font-family: Ubuntu;
   font-size: 11pt;
   margin-left: 15%;
   margin-right: 15%;
 }
+
+
 
 footer {
   padding: 20px;
