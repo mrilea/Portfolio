@@ -45,7 +45,7 @@ main {
 }
 
 header{
-  /* padding: .1em 0; */
+  padding: .1em 0;
   background-color: #39375b;
   position: sticky;
   position: -webkit-sticky;
