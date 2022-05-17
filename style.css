@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* NEW colors
+/* colors
 
 Space Cadet (purp) #39375B
 Beau Blue #BDD4E7
@@ -15,8 +15,7 @@ background, color, font-family, font-size,
 height, margin, padding, text-align
 */
 
-img {
-  /*width: 300px; */
+.image { 
   display: block;
   border-radius: 20px;
   margin-left: auto;
@@ -37,12 +36,16 @@ img {
 
 main {
   background-color: #8693AB;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Ubuntu;
 }
 
-header {
+header{
+  padding: .1em 0;
   background-color: #39375b;
-  padding: 3px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 10;
 }
 
 h2,
@@ -51,7 +54,7 @@ h3 {
 }
 
 h1 {
-  font-family: Audiowide;
+  font-family: Ubuntu;
   font-size: 22pt;
   /* padding: 1px;  */
   /* text-shadow: 2px 2px 2px #CBDFBD; */
@@ -61,11 +64,28 @@ h2 {
   font-size: 12pt;
 }
 
+.icons{
+  text-align: right;
+}
+
+.icon1 img{
+  width: 16px;
+}
+
+ul li{
+  list-style: none;
+}
+
+.icons li, .menu li{
+  display: inline-block;
+  padding: 0 .5em;
+}
+
 p,
 ul,
 ol {
-  font-family: Lora;
-  font-size: 12pt;
+  font-family: Ubuntu;
+  font-size: 11pt;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -82,12 +102,13 @@ ol {
 
 iframe {
   display: block;
+  border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 40px;
-  width: 50%;
-  height: 450px;
+  width: 35%;
+  height: 400px;
   padding: 10px;
   border: 0;
 }
@@ -100,10 +121,10 @@ hr {
 }
 
 a:link {
-  color: blue;
+  color: black;
 }
 a:visited {
-  color: red;
+  color: black;
 }
 a:hover {
   color: blueviolet;

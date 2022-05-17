@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Portfolio Web Page</title>
+    <title>Marlin Rilea Portfolio</title>
     <link
       href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"
       rel="stylesheet"
@@ -36,52 +36,85 @@
   </head>
   <body>
     <main>
-      <header class="green">
-        <h1 class="center">Marlin Rilea</h1>
-        <h2 class="center">Thinkful Engineering Flex Student</h2>
+      <header role="banner" id="display" class="grid green">
+        <div class="icons">
+          <ul class="unordered-icon">
+            <li>
+              <div class="icon1">
+                <a
+                  href="mailto:marlinrilea@gmail.com"
+                  class="email link"
+                  target="_blank"
+                  ><img src="images/iconEmail.png" alt="email" 
+                /></a>
+              </div>
+            </li>
+            <li>
+              <div class="icon1">
+                <a
+                  href="https://github.com/mrilea"
+                  class="github link"
+                  target="_blank"
+                  ><img src="images/iconGitHub.png" alt="gitHub"
+                /></a>
+              </div>
+            </li>
+            <li>
+              <div class="icon1">
+                <a
+                  href="https://www.linkedin.com/in/mrilea"
+                  class="linkedin link"
+                  target="_blank"
+                  ><img src="images/iconLinkedIn1.png" alt="LinkedIn"
+                /></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- <h1 class="center">Marlin Rilea</h1> -->
       </header>
-      <img src="images/mrilea-headshot.jpg" alt="Marlin Headshot" />
+      <img class="image" src="images/mrilea-headshot.jpg" alt="Marlin Headshot" />
       <h3 class="center">Hi! I'm Marlin Rilea</h3>
-      <p>
-        I am a student at Thinkful in the Engineering Flex Program living in Oak
-        Harbor, Washington.
-      </p>
-      <p>As a Thinkful student, I'm interested in:</p>
+      <p>I am Full Stack Developer from Anacortes, Washington.</p>
+      <p>As a Thinkful graduate, I'm interested in:</p>
       <ul>
-        <li>Learning about JavaScript, HTML, and CSS.</li>
+        <li>Working with JavaScript, HTML, and CSS.</li>
         <li>
-          Meeting new people that are also interested in coding/web
-          development.
+          Meeting new people that are also interested in coding/web development.
         </li>
       </ul>
       <p>
         Please take a look at my website and feel free to
-        <a href="#contact">Contact Me</a>.
+        <a class="link" href="#contact">Contact Me</a>.
       </p>
-      <hr />
       <article>
         <h3 class="center" id="about">About Marlin</h3>
         <p>
-          Though I'm very new to web development, I'm excited to dive in and see
+          Though I'm very new to web development, I'm excited to start a new career
           where it can take me. I look forward to projects with friends and
           peers of all sorts.
-        </p>
-        <p>
-          Outside of web development I work as an Office Manager at a small
-          office supply company.
         </p>
         <p>
           When I'm not working, most of my time is spent with my family. We have
           a 4 year old girl that just started preschool and a 1 year old boy.
         </p>
       </article>
-      <hr />
-      <h3 class="center" id="contact">Contact Marlin</h3>
+      <h3 class="center link" id="contact">Contact Me</h3>
       <p>Please use the links below to contact me anytime.</p>
       <ol>
-        <li><a href="https://www.linkedin.com/in/mrilea/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://www.github.com/mrilea.html" target="_blank">GitHub</a></li>
-        <li><a href="mailto:marlinrilea@gmail.com" target="_blank">Email</a></li>
+        <li>
+          <a class="link" href="https://www.linkedin.com/in/mrilea/" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a class="link" href="https://www.github.com/mrilea.html" target="_blank"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <a class="link" href="mailto:marlinrilea@gmail.com" target="_blank">Email</a>
+        </li>
       </ol>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42469.14864825413!2d-122.66298283656862!3d48.29666223439663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548561e29d4c99e7%3A0x8aa906315eff0b1f!2sOak%20Harbor%2C%20WA%2098277!5e0!3m2!1sen!2sus!4v1636845575229!5m2!1sen!2sus"
