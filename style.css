@@ -26,6 +26,13 @@ Cool Grey #8693AB
   margin-bottom: 10px;
 }
 
+.screenshot {
+  display: block;
+  width: 65%;
+  height: 50%;
+  border-radius: 2px;
+}
+
 .green {
   color: #BDD4E7;
 }
@@ -109,7 +116,7 @@ iframe {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 40px;
-  width: 35%;
+  width: 65%;
   height: 400px;
   padding: 10px;
   border: 0;
